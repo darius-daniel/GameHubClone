@@ -5,7 +5,7 @@ export default function GameCardSkeleton() {
     <Card width="300px">
       <Skeleton height="200px" />
       <CardBody>
-        <SkeletonText />
+        <SkeletonText mt="4" noOfLines={4} spacing="4" skeletonHeight="2" />
       </CardBody>
     </Card>
   );
